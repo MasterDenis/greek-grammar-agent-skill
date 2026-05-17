@@ -1,4 +1,4 @@
-# greek-grammar Hermes Agent Skill
+# greek-grammar-agent-skill Hermes Agent Skill
 
 A Hermes Agent / Agent Skills compatible skill for Modern Greek grammar.
 
@@ -12,14 +12,14 @@ Copy the folder to one of these locations:
 
 ```bash
 mkdir -p ~/.hermes/skills
-cp -R greek-grammar ~/.hermes/skills/greek-grammar
+cp -R greek-grammar-agent-skill ~/.hermes/skills/greek-grammar-agent-skill
 ```
 
 Or place it in a project skill directory if your Hermes setup scans project-local skills:
 
 ```bash
 mkdir -p ./skills
-cp -R greek-grammar ./skills/greek-grammar
+cp -R greek-grammar-agent-skill ./skills/greek-grammar-agent-skill
 ```
 
 Then verify in Hermes:
@@ -31,13 +31,13 @@ hermes skills list
 Use it by natural language or slash command, depending on your Hermes interface:
 
 ```text
-/greek-grammar Correct this sentence: Με ο φίλος μου πήγαμε σινεμά.
+/greek-grammar-agent-skill Correct this sentence: Με ο φίλος μου πήγαμε σινεμά.
 ```
 
 ## Structure
 
 ```text
-greek-grammar/
+greek-grammar-agent-skill/
 ├── SKILL.md
 ├── README.md
 ├── LICENSE
